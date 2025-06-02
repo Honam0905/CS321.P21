@@ -188,4 +188,4 @@ with gr.Blocks() as demo:
         outputs=[out, dl]
     )
 
-demo.launch(allowed_paths=["."])
+demo.launch(allowed_paths=["."],share=True)
